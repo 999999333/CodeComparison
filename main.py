@@ -35,7 +35,7 @@ def compare_codes(excel_codes: Set[str], word_codes: Set[str]) -> (Set[str], Set
     return matching_codes, codes_only_in_excel, codes_only_in_word
 
 def main():
-    st.title("Code Comparison Tool")
+    st.title(":pencil: Code Comparison Tool :eagle:")
 
     st.write("""
     Upload an Excel/CSV file containing codes and a Word/TXT document with text that may contain these codes.
